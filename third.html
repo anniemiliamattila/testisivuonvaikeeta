@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Annin kotisivujee</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgrey ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+nav {
+  float: left;
+  width: 20%;
+   height: 300px;
+  background: lightgrey;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: value;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: black;
+  height: 40px;
+margin-left: auto;
+margin-right: auto;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Annin kotisivu</h2>
+</header>
+
+<ul>
+  <li><a class="active" href="#index.html">Etusivu</a></li>
+  <li><a href="#second.html">kakkos sivu</a></li>
+  <li><a href="#toiselle.html">div sivu</a></li>
+</ul>
+
+<section>
+  <nav>
+    <ul>
+          <p style="color:white;font-size:12px;"><p><a href="https://www.google.fi/">Google</a></p>
+      <p style="color:white;font-size:12px;"><p><a href="https://www.iltalehti.fi/">Iltalehti</a></p>
+      <p style="color:white;font-size:12px;"><p><a href="https://www.laurea.fi/">Laurea</a></p>
+      <p style="color:white;font-size:12px;"><p><a href="https://www.alpaca.fi/">Extra Alpakat</a></p>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Annin kolmas sivu</h1>
+    <p>Tähän tekstiä, jotta näkee miltä näyttää. En tiedä mitä tähän kirjottaisi</p>
+    <p>Nyt vaan kopioin tuota tehtävän lopussa olutta png kuvaa ja koitan tehdä kuvanmukaisen tästä.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Annin kotisivut</p>
+</footer>
+
+</body>
+</html>
 
