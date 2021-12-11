@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap harjoitus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1>Moikku</h1> 
+  <p>yhteystietosivu</p> 
+  <form class="form-inline">
+
+  </form>
+</div>
+
+
+<div class="container-fluid bg-grey">
+  <h2 class="text-center">Yhteystiedot</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Yhteystiedot</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Kiskontie 21 A as 2, 00280 Helsinki</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 0440574444</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> anniemattila@gmail.com</p>
+    </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+ 
+</div>
+
+</body>
+</html>
