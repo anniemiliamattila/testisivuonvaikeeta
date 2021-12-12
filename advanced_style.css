@@ -10,6 +10,11 @@ margin-right: auto;
   font-family: Arial, Helvetica, sans-serif;
  background-color: #DCDCDC;
 }
+      }
+  @media (max-width: 800px) {
+     body {
+    background-color: lightblue;
+    }
 
 header {
   background-color: #F8F8FF ;
